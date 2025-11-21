@@ -63,7 +63,7 @@ pip install torch torchvision pandas numpy scikit-learn tqdm pillow
 
 2. Dataset
 
-This model was trained on the Flora & Fauna dataset as part of a university challenge. Due to privacy and access restrictions, the dataset is not publicly available and is not included in this repository.
+This model was trained on the **Flora & Fauna** dataset as part of a university challenge. Due to privacy and access restrictions, the dataset is not publicly available and is not included in this repository.
 
 Therefore, the script cannot be run out-of-the-box without downloading the specific competition data separately and placing it in the correct directory structure.
 

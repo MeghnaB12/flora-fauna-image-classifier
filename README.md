@@ -61,13 +61,13 @@ It is recommended to run this in a Kaggle environment or a local virtual environ
 pip install torch torchvision pandas numpy scikit-learn tqdm pillow
 ```
 
-2. Dataset
+### 2. Dataset
 
 This model was trained on the **Flora & Fauna** dataset as part of a university challenge. Due to privacy and access restrictions, the dataset is not publicly available and is not included in this repository.
 
 Therefore, the script cannot be run out-of-the-box without downloading the specific competition data separately and placing it in the correct directory structure.
 
-3. Notebook Review
+### 3. Notebook Review
 
 The image_classifier.ipynb notebook contains the full, end-to-end code for the methodology. It serves as a reference implementation for ViT Transfer Learning, including:
 

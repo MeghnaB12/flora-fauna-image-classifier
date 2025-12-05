@@ -71,12 +71,12 @@ Therefore, the script cannot be run out-of-the-box without downloading the speci
 
 The image_classifier.ipynb notebook contains the full, end-to-end code for the methodology. It serves as a reference implementation for ViT Transfer Learning, including:
 
-Augmentation: Complex torchvision.transforms pipelines.
+* Augmentation: Complex torchvision.transforms pipelines.
 
-Model Definition: How to modify ViT heads and freeze backbones.
+* Model Definition: How to modify ViT heads and freeze backbones.
 
-Training Loop: A complete training loop implementation with GradScaler for Mixed Precision.
+* Training Loop: A complete training loop implementation with GradScaler for Mixed Precision.
 
-Inference: Logic to iterate over a test folder and generate a submission CSV.
+* Inference: Logic to iterate over a test folder and generate a submission CSV.
 
 This notebook can be reviewed to understand the complete logic and architecture, but cannot be executed without the original dataset.
